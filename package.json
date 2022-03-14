@@ -1,18 +1,25 @@
 {
   "name": "pilas-bloques-ember-intl",
   "version": "1.0.0",
-  "description": "Pilas Bloques implementation of ember-intl.",
+  "description": "A internationalization toolbox for ambitious applications.",
   "keywords": [
-    "pilas-bloques"
+    "ember-addon",
+    "i18n",
+    "ember-intl",
+    "ember-i18n",
+    "ember",
+    "internationalization"
   ],
+  "author": "jason.mitchell.w@gmail.com",
   "license": "MIT",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
+  "homepage": "https://ember-intl.github.io/ember-intl/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Program-AR/ember-intl"
+    "url": "http://github.com/ember-intl/ember-intl.git"
   },
   "scripts": {
     "start": "ember serve",
