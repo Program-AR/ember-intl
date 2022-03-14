@@ -6,8 +6,8 @@ import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import { get } from '@ember/object';
 import td from 'testdouble';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
-import type { TOptions } from 'ember-intl/services/intl';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
+import type { TOptions } from 'pilas-bloques-ember-intl/services/intl';
 
 const LOCALE = 'en-us';
 

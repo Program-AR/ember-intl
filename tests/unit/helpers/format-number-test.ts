@@ -4,8 +4,8 @@ import hbs from 'htmlbars-inline-precompile';
 import { module, test, skip } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
-import formatNumberHelper from 'ember-intl/helpers/format-number';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
+import formatNumberHelper from 'pilas-bloques-ember-intl/helpers/format-number';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
 
 module('format-number', function (hooks) {
   setupRenderingTest(hooks);

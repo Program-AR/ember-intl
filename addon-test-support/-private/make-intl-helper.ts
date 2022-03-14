@@ -3,7 +3,7 @@ import type { TestContext } from 'ember-test-helpers';
 import { assert } from '@ember/debug';
 import type Evented from '@ember/object/evented';
 import type Service from '@ember/service';
-import type IntlService from 'ember-intl/services/intl';
+import type IntlService from 'pilas-bloques-ember-intl/services/intl';
 import type { ConditionalKeys, RemoveFirstFromTuple } from './type-utils';
 
 type IntlMethods = Exclude<ConditionalKeys<IntlService, (...args: unknown[]) => void>, keyof Service | keyof Evented>;

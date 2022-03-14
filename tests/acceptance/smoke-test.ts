@@ -1,7 +1,7 @@
 import { module, test } from 'qunit';
 import { setupApplicationTest } from 'ember-qunit';
 import { visit } from '@ember/test-helpers';
-import { t } from 'ember-intl/test-support';
+import { t } from 'pilas-bloques-ember-intl/test-support';
 
 module('Acceptance: Smoke', function (hooks) {
   setupApplicationTest(hooks);

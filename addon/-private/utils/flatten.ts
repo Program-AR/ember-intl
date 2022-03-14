@@ -1,4 +1,4 @@
-import EmptyObject from 'ember-intl/-private/utils/empty-object';
+import EmptyObject from 'pilas-bloques-ember-intl/-private/utils/empty-object';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

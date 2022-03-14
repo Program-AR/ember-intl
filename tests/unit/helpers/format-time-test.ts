@@ -2,8 +2,8 @@ import hbs from 'htmlbars-inline-precompile';
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
-import formatTimeHelper from 'ember-intl/helpers/format-time';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
+import formatTimeHelper from 'pilas-bloques-ember-intl/helpers/format-time';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
 
 const date = 1390518044403;
 

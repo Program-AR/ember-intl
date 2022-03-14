@@ -1,6 +1,6 @@
 import { get } from '@ember/object';
 import type ComputedProperty from '@ember/object/computed';
-import EmptyObject from 'ember-intl/-private/utils/empty-object';
+import EmptyObject from 'pilas-bloques-ember-intl/-private/utils/empty-object';
 import intl from './intl';
 import type IntlService from '../services/intl';
 import type { TOptions } from '../services/intl';

@@ -1,1 +1,1 @@
-export { default } from 'ember-intl/-private/utils/missing-message';
+export { default } from 'pilas-bloques-ember-intl/-private/utils/missing-message';

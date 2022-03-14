@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import FormatRelative from 'ember-intl/-private/formatters/format-relative';
+import FormatRelative from 'pilas-bloques-ember-intl/-private/formatters/format-relative';
 
 module('format-relative', function (hooks) {
   let IntlRelativeTimeFormat: unknown;

@@ -4,8 +4,8 @@
  */
 
 import type { MessageFormatElement } from 'intl-messageformat-parser';
-import flatten, { NestedStructure } from 'ember-intl/-private/utils/flatten';
-import parse from 'ember-intl/-private/utils/parse';
+import flatten, { NestedStructure } from 'pilas-bloques-ember-intl/-private/utils/flatten';
+import parse from 'pilas-bloques-ember-intl/-private/utils/parse';
 
 export type TranslationAST = MessageFormatElement[];
 

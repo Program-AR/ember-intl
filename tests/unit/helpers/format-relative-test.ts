@@ -2,8 +2,8 @@ import hbs from 'htmlbars-inline-precompile';
 import { module, test, skip } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
-import formatRelativehelper from 'ember-intl/helpers/format-relative';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
+import formatRelativehelper from 'pilas-bloques-ember-intl/helpers/format-relative';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
 
 module('format-relative', function (hooks) {
   setupRenderingTest(hooks);

@@ -1,6 +1,6 @@
 import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
-import Translation from 'ember-intl/-private/store/translation';
+import Translation from 'pilas-bloques-ember-intl/-private/store/translation';
 import type { TestContext as BaseTestContext } from 'ember-test-helpers';
 
 interface TestContext extends BaseTestContext {

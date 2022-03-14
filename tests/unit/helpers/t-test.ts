@@ -1,10 +1,10 @@
 import { render, settled } from '@ember/test-helpers';
-import tHelper from 'ember-intl/helpers/t';
+import tHelper from 'pilas-bloques-ember-intl/helpers/t';
 import { setupRenderingTest } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 import { module, test } from 'qunit';
 import { gte } from 'ember-compatibility-helpers';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
 
 const DEFAULT_LOCALE = 'en-us';
 

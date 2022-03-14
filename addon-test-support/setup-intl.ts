@@ -1,9 +1,9 @@
 import addTranslations from './add-translations';
 import { missingMessage } from './-private/serialize-translation';
 import type { TestContext as BaseTestContext } from 'ember-test-helpers';
-import type IntlService from 'ember-intl/services/intl';
-import type { TOptions } from 'ember-intl/services/intl';
-import type { Translations } from 'ember-intl/-private/store/translation';
+import type IntlService from 'pilas-bloques-ember-intl/services/intl';
+import type { TOptions } from 'pilas-bloques-ember-intl/services/intl';
+import type { Translations } from 'pilas-bloques-ember-intl/-private/store/translation';
 
 export interface IntlTestContext {
   intl: IntlService;

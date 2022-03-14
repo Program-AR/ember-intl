@@ -23,7 +23,7 @@ const DEFAULT_CONFIG = require('./lib/default-config');
 const OBSOLETE_OPTIONS = ['locales', 'disablePolyfill', 'autoPolyfill'];
 
 module.exports = {
-  name: 'ember-intl',
+  name: 'pilas-bloques-ember-intl',
   logger: null,
   configOptions: null,
   isLocalizationFramework: true,

@@ -7,7 +7,7 @@ module.exports = function (deployTarget) {
 
     git: {
       enabled: true,
-      repo: 'https://github.com/ember-intl/ember-intl.git',
+      repo: 'https://github.com/Program-AR/ember-intl.git',
     },
   };
 

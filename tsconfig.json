@@ -24,10 +24,10 @@
     "paths": {
       "dummy/tests/*": ["tests/*"],
       "dummy/*": ["tests/dummy/app/*", "app/*"],
-      "ember-intl": ["addon"],
-      "ember-intl/*": ["addon/*"],
-      "ember-intl/test-support": ["addon-test-support"],
-      "ember-intl/test-support/*": ["addon-test-support/*"],
+      "pilas-bloques-ember-intl": ["addon"],
+      "pilas-bloques-ember-intl/*": ["addon/*"],
+      "pilas-bloques-ember-intl/test-support": ["addon-test-support"],
+      "pilas-bloques-ember-intl/test-support/*": ["addon-test-support/*"],
       "*": ["types/*"]
     }
   },

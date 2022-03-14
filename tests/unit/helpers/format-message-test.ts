@@ -2,11 +2,11 @@ import { A as emberArray } from '@ember/array';
 import EmberObject, { computed, get, set } from '@ember/object';
 import { run, next } from '@ember/runloop';
 import { render } from '@ember/test-helpers';
-import formatMessageHelper from 'ember-intl/helpers/format-message';
+import formatMessageHelper from 'pilas-bloques-ember-intl/helpers/format-message';
 import { setupRenderingTest } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
 import { module, skip, test } from 'qunit';
-import { setupIntl, TestContext } from 'ember-intl/test-support';
+import { setupIntl, TestContext } from 'pilas-bloques-ember-intl/test-support';
 
 const DEFAULT_LOCALE_NAME = 'en-us';
 

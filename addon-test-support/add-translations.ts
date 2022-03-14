@@ -1,8 +1,8 @@
 import { get } from '@ember/object';
 import makeIntlHelper from './-private/make-intl-helper';
 import pickLastLocale from './-private/pick-last-locale';
-import type IntlService from 'ember-intl/services/intl';
-import type { Translations } from 'ember-intl/-private/store/translation';
+import type IntlService from 'pilas-bloques-ember-intl/services/intl';
+import type { Translations } from 'pilas-bloques-ember-intl/-private/store/translation';
 
 // ! Because TypeScript seems to short-circuit overloaded functions when passed
 // as generics, including these overloads would not work with `makeIntlHelper`.

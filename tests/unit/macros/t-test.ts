@@ -3,9 +3,9 @@ import { module, test } from 'qunit';
 import { setupTest } from 'ember-qunit';
 import EmberObject from '@ember/object';
 import { run } from '@ember/runloop';
-import { setupIntl, addTranslations, TestContext as BaseTextContext } from 'ember-intl/test-support';
+import { setupIntl, addTranslations, TestContext as BaseTextContext } from 'pilas-bloques-ember-intl/test-support';
 
-import { t, raw } from 'ember-intl';
+import { t, raw } from 'pilas-bloques-ember-intl';
 
 interface TestContext extends BaseTextContext {
   ContainerObject: typeof EmberObject;
