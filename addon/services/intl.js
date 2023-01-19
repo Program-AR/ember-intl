@@ -9,7 +9,7 @@ import { assert } from '@ember/debug';
 import { makeArray } from '@ember/array';
 import Service from '@ember/service';
 import { next, cancel } from '@ember/runloop';
-
+import { readOnly } from '@ember/object/computed';
 import { FormatDate, FormatMessage, FormatNumber, FormatRelative, FormatTime } from '../-private/formatters';
 import isArrayEqual from '../-private/utils/is-array-equal';
 import normalizeLocale from '../-private/utils/normalize-locale';
@@ -27,7 +27,7 @@ export default Service.extend(Evented, {
    * @property locales
    * @public
    */
-  locales: computed.readOnly('_translationContainer.locales'),
+  locales: readOnly('_translationContainer.locales'),
 
   /** @public **/
   locale: computed('_locale', {
@@ -56,7 +56,7 @@ export default Service.extend(Evented, {
    * @property primaryLocale
    * @public
    */
-  primaryLocale: computed.readOnly('locale.0'),
+  primaryLocale: readOnly('locale.0'),
 
   /** @public **/
   formatRelative: createFormatterProxy('relative'),
